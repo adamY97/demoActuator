@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class actuatorController {
+public class ActuatorController {
 	
 	@GetMapping("/nombre/{nombre}")
 	public String nombre(@PathVariable String nombre) {
